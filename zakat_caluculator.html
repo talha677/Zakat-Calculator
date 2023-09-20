@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zakat caluculator</title>
+</head>
+<body>
+    
+    <h1>Zakat Caluculator</h1>
+
+    <form onsubmit="zakat_caluculator(); return false;">
+
+    <div><br>
+        <label for="Cash at Home">Cash at Home</label>
+    </div>
+        <input type="number"  id="cash1">
+        
+    <div><br>
+        <label for="Balance Held in Bank Accounts">Balance Held in Bank Accounts</label>   
+    </div>
+        <input type="number"  id="bba1">
+        
+    <div><br>
+        <label for="Resale Value of Shares">Resale Value of Shares</label>   
+    </div>    
+        <input type="number"  id="resale1">
+        
+    <div><br>
+        <label for="Property Held as Investment">Property Held as Investment</label>   
+    </div>    
+        <input type="number"  id="pro1">
+        
+    <div><br>
+        <label for="Other Income">Other Income</label>
+    </div>    
+        <input type="number"  id="oi1">
+
+    <div> <br>    
+    <button type="submit">Caluculat</button>            
+    </div>   
+
+    <div><br>
+        <label for="Zakat-Eligible Total">Zakat-Eligible Total</label>
+    </div>
+    <input type="text" id="box1">
+        
+    <div><br>
+        <label for="Your Zakat ">Your Zakat</label>
+    </div>
+    <input type="text" id="box2">
+ 
+
+
+
+</form>
+<h1 id="res1"></h1>
+<H1 id="res2"></H1>
+
+    <script src="./zakat_caluculator.js"></script>
+</body>
+</html>
